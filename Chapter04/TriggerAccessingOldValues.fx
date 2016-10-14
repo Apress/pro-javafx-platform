@@ -1,0 +1,5 @@
+var i = 1024 on replace oldValue {
+  println("Variable i changed from {oldValue} to {i}.");
+};
+
+i = 2048;

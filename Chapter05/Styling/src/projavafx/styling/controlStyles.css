@@ -1,0 +1,123 @@
+/*
+ * Copyright (c) 2009, Pro JavaFX Authors
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ * 1. Redistributions of source code must retain the above copyright notice,
+ *    this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright notice,
+ *    this list of conditions and the following disclaimer in the documentation
+ *    and/or other materials provided with the distribution.
+ * 3. Neither the name of JFXtras nor the names of its contributors may be used
+ *    to endorse or promote products derived from this software without
+ *    specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+ * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ * POSSIBILITY OF SUCH DAMAGE.
+ */
+
+.labels {
+  font-size: 18pt;
+}
+
+#label2 {
+  textFill: linear (0%, 0%) to (0%, 100%) stops (0.0, darksalmon), (0.60, darkseagreen), (1.0, darksalmon);
+  font: bold 36pt times;
+}
+
+#label4 {
+  textFill: red;
+  font: italic 24pt times;
+}
+
+.buttons {
+  textFill: black;
+}
+
+.buttons:hover {
+  textFill: yellow;
+}
+
+#button2 {
+  base: maroon;
+  font: bold 24pt times;
+  textFill: cornsilk;
+  focusFill: maroon;
+  focusSize: 2;
+}
+
+#button3 {
+  base: #4e669d;
+  highlightFill: darkblue;
+  textFill: aliceblue;
+  cornerRadius: 20;
+  font-size: 24pt
+}
+
+.checks {
+  heightlightFill: whitesmoke;
+  font-size: 18pt;
+}
+
+.checks:hover {
+  heightlightFill: red;
+}
+
+#check2 {
+  base: green;
+  checkFill: white;
+  size: 20;
+}
+
+#check3 {
+  cornerRadius: 20;
+  size: 20;
+}
+
+#check4 {
+  base: #4e669d;
+  checkFill: white;
+  size: 15;
+  font: bold 24pt times;
+}
+
+.radios {
+  font-size: 18pt;
+}
+
+#radio1 {
+  base: orange;
+  textFill: darkorange;
+  size: 20;
+}
+
+#radio2 {
+  base: #4e669d;
+  dotFill: lightcyan;
+  textFill: darkslateblue;
+  size: 20;
+}
+
+#radio4 {
+  base: maroon;
+  textFill: maroon;
+  dotFill: salmon;
+  size: 20;
+  font: bold 24pt times;
+}
+
+.progress {
+  accent: maroon; /*#4e669d;*/
+  indeterminateRadius: 100;
+  segmentGap: 10;
+}

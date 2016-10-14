@@ -1,0 +1,85 @@
+/*
+ * Copyright (c) 2009, Pro JavaFX Authors
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ * 1. Redistributions of source code must retain the above copyright notice,
+ *    this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright notice,
+ *    this list of conditions and the following disclaimer in the documentation
+ *    and/or other materials provided with the distribution.
+ * 3. Neither the name of JFXtras nor the names of its contributors may be used
+ *    to endorse or promote products derived from this software without
+ *    specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+ * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ * POSSIBILITY OF SUCH DAMAGE.
+ */
+
+Text.summaryTitle {
+    fill: #c3a78c;
+    font: bold 14pt "sans serif";
+}
+
+Text.summaryPrice {
+    fill: #f9f7f6;
+    font: bold 14pt "sans serif";
+}
+
+Star2.filledStar {
+    fill: #df6212;
+    stroke: #cfc0b4;
+}
+
+Star2.emptyStar {
+    fill: transparent;
+    stroke: #cfc0b4;
+}
+
+ResizableRectangle.summaryBackground {
+    fill: #ffffff20;
+    stroke: #ffffffa0;
+    arcWidth: 20;
+    arcHeight: 20;
+    strokeWidth: 1.5;
+}
+
+Slider {
+    trackFill: #ffffff20;
+    trackStroke: #ffffffa0;
+    trackHeight: 12;
+    thumbLength: 40;
+    thumbFill: #ddc7af;
+    thumbStroke: #5a5234;
+}
+
+#magnifierLense {
+    stroke: black;
+    fill: #9cb7cd;
+}
+
+#magnifierHandle {
+    stroke: black;
+    strokeWidth: 2;
+}
+
+#searchBackground {
+    fill: #ffffffc0;
+    stroke: #ddc7af;
+}
+
+Text.cartPageText {
+    fill: #c3a78c;
+    font: bold 24pt "sans serif";
+}
+
